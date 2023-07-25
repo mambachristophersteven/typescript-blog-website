@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.top{
+    display: flex;
+    gap: 50px;
+    /* align-items: center; */
+}
+
+.textContent{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.author{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.authorImage{
+    border-radius: 50%;
+}
+
+.imgContainer{
+    flex: 1;
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.image{
+    position: absolute;
+}
+
+.bottom p{
+    font-size: 20px;
+}
